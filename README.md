@@ -4,7 +4,7 @@
   <code>gtk3</code> ~ my phork of <a href="https://github.com/elkowar/gtk">elkowar's phork</a> of phocus.
 </div>
 
-<img src="https://cdn.xndr.tech/u/d3yyjJk.png" align="center" alt="preview">
+<img src="https://cdn.xndr.tech/u/nvunchk.png" align="center" alt="preview">
 
 ### — Installation
 
