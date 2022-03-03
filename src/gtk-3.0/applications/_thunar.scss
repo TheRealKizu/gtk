@@ -8,13 +8,13 @@ window.thunar {
     grid {
         *:selected,
         *:active {
-            background: $background-3;
+            background: $background-2;
             border-radius: 3px;
         }
     }
 
     .sidebar {
-        background: #131718;
+        background: $background-2;
         padding: 1rem;
     }
 
@@ -33,11 +33,8 @@ window.thunar {
     }
 
     toolbar {        
-        // toolbutton {
-        //     opacity: 0;
-        // }
         entry {
-            background: $background-3;
+            background: $background-1;
             border-radius: 10px;
 
             margin: 2px 2em 2px 1em;
@@ -54,7 +51,7 @@ window.thunar {
     }
 
     toolbar {
-        background: $background-2;
+        background: $background-3;
         padding: 5px 0;
     }
 
