@@ -13,7 +13,7 @@ spinbutton {
       &:hover {
         background-clip: padding-box;
       }
-      border-color: color.change(colors.$purple-normal, $alpha: config.$tint-strong);
+      border-color: color.change(colors.$cyan-light, $alpha: config.$tint-strong);
     }
   }
 

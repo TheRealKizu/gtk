@@ -1,7 +1,8 @@
+@use 'sass:color';
 @use '../colors';
 
 separator {
-  background-image: image(colors.$white-weakest);
+  background-image: image(color.change(colors.$surface-moderate, $alpha: 0.5%));
   background-size: 1px 1px;
   background-position: center center;
 

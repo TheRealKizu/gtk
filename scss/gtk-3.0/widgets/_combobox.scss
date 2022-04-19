@@ -8,11 +8,12 @@ combobox {
     border-right: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    padding: config.$border-size;
 
     &:focus + button {
-      border: config.$border-size solid color.change(colors.$accent-primary, $alpha: config.$tint-strong);
+      //border: config.$border-size solid color.change(colors.$accent-primary, $alpha: config.$tint-strong);
       border-left: 0;
-      margin-right: -#{config.$border-size};
+      //margin-right: -#{config.$border-size};
 
       &:hover {
         background-clip: padding-box;
@@ -27,7 +28,7 @@ combobox {
   .linked button.combo {
     padding: calc(config.$spacing-medium - 0.1em);
     border-radius: config.$radius;
-    
+
     arrow {
       min-width: 1em;
       -gtk-icon-source: -gtk-icontheme("go-down-symbolic");

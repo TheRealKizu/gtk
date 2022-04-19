@@ -3,7 +3,7 @@
 @use '../config';
 
 tabs {
-  background: colors.$surface-strongest;
+  background: colors.$surface-dark;
 
   @each $class, $side in (
     'top': 'bottom',

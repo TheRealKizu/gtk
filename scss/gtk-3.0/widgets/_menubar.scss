@@ -2,7 +2,7 @@
 @use '../config';
 
 menubar {
-  background: colors.$surface-strongest;
+  background: colors.$surface-dark;
 
   menuitem {
     padding: config.$spacing-medium;

@@ -1,9 +1,10 @@
 @use '../colors';
+@use '../config';
 
 popover {
-  background: colors.$surface-weakest;
+  background: colors.$surface-dark;
   box-shadow: 0 0 5px colors.$black-moderate;
-  border-radius: 0.5em;
+  border-radius: 0.2em;
   padding: 0.5em;
 
   box {

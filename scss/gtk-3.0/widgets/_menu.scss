@@ -2,7 +2,7 @@
 @use '../config';
 
 menu {
-  background: colors.$surface-weak;
+  background: colors.$surface-dark;
   menuitem {
     padding: config.$spacing-medium;
     &:hover {

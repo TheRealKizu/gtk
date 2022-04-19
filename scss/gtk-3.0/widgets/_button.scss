@@ -12,10 +12,10 @@ button {
   &:disabled { opacity: config.$disabled-opacity; }
 
   &:checked, &.suggested-action {
-    background: color.change(colors.$purple-normal, $alpha: config.$tint-medium);
+    background: color.change(colors.$cyan-normal, $alpha: config.$tint-medium);
     color: colors.$white-strong;
     &:hover:not(:active) {
-      background: color.change(colors.$purple-light, $alpha: config.$tint-medium);
+      background: color.change(colors.$cyan-light, $alpha: config.$tint-medium);
     }
   }
 

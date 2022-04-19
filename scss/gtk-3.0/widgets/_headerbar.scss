@@ -3,7 +3,7 @@
 @use '../config';
 
 headerbar {
-  background: colors.$surface-moderate;
+  background: colors.$surface-dark;
   padding: config.$spacing-medium;
 
   button.titlebutton {
