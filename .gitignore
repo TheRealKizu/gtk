@@ -1,6 +1,12 @@
-.yarn
-dist/
-node_modules/
-/gtk-3.0/
-.idea/
-.sass-cache/
+# Development
+/.yarn/*
+/.yarn/cache
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+!/.yarn/versions
+/node_modules
+
+# Folders
+/dist
