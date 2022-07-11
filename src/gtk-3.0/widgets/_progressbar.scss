@@ -1,0 +1,10 @@
+@use "../colors";
+
+progressbar {
+	trough {
+		background: colors.$white-weakest;
+		progress {
+			background: colors.$accent-secondary;
+		}
+	}
+}

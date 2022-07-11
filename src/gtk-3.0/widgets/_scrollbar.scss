@@ -1,0 +1,18 @@
+@use "../colors";
+
+scrollbar {
+	-gtkscrollbar-has-backward-stepper: false;
+	-gtkscrollbar-has-forward-stepper: false;
+
+	slider {
+		padding: 0.2em;
+		border-radius: 1em;
+		background: colors.$white-weakest;
+		&:hover {
+			background: colors.$white-weak;
+		}
+		&:active {
+			background: colors.$accent-primary;
+		}
+	}
+}

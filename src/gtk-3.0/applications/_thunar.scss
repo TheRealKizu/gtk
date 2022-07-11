@@ -1,0 +1,72 @@
+@use 'sass:color';
+@use '../colors';
+@use '../config';
+
+window.thunar {
+	background: none;
+
+	treeview {
+		background: none;
+	}
+
+	grid {
+		*:selected,
+		*:active {
+			background: colors.$surface-weak;
+			border-radius: 3px;
+		}
+	}
+
+	.sidebar {
+		background: #131718;
+		padding: 1rem;
+	}
+
+	treeview {
+		padding: 3px;
+		color: #6e7071;
+		&:selected {
+			background: none;
+			color: colors.$white-strongest;
+			font-weight: bold;
+		}
+	}
+
+	.frame {
+		border: 0;
+	}
+
+	toolbar {
+		entry {
+			background: colors.$surface-dark;
+			border-radius: 10px;
+
+			margin: 2px 2em 2px 1em;
+			padding: 0px 1rem;
+
+			image {
+				background-image: image(rgba(255, 255, 255, 0));
+			}
+		}
+	}
+
+	paned grid {
+		background: colors.$surface-dark;
+	}
+
+	toolbar {
+		background: colors.$surface-strong;
+		padding: 5px 0;
+	}
+
+	toolbar * {
+		background: none;
+	}
+
+	/* hide separator */
+	separator {
+		background-image: image(rgb(19, 23, 24));
+		background-size: 1px 1px;
+		background-position: center center;
+	}
+}

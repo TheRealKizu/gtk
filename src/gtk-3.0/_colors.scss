@@ -1,0 +1,43 @@
+@use "sass:color";
+
+$surface-dark: #101415;
+$surface-strongest: #0b0f10;
+$surface-strong: color.scale($surface-strongest, $lightness: 0%);
+$surface-moderate: color.scale($surface-strongest, $lightness: +5%);
+$surface-weak: color.scale($surface-strongest, $lightness: +7.5%);
+$surface-weakest: color.scale($surface-strongest, $lightness: +10%);
+
+$white-moderate: rgba(255, 255, 255, 0.34);
+$white-weak: rgba(255, 255, 255, 0.14);
+$white-weakest: rgba(255, 255, 255, 0.06);
+$white-strongest: #c5c8c9;
+$white-strong: #cccccc;
+
+$black-strongest: rgba(0, 0, 0, 1);
+$black-strong: rgba(0, 0, 0, 0.87);
+$black-moderate: rgba(0, 0, 0, 0.42);
+$black-weak: rgba(0, 0, 0, 0.15);
+$black-weakest: rgba(0, 0, 0, 0.06);
+
+$red-normal: #df5b61;
+$red-light: #ee6a70;
+$orange-normal: #d65d0e;
+$orange-light: #fe8019;
+$yellow-normal: #de8f78;
+$yellow-light: #ffb29b;
+$green-normal: #87c7a1;
+$green-light: #96d6b0;
+$cyan-normal: #70b9cc;
+$cyan-light: #7fc8db;
+$blue-normal: #6791c9;
+$blue-light: #7ba5dd;
+$purple-normal: #bc83e3;
+$purple-light: #cb92f2;
+$pink-normal: #e16286;
+$pink-light: #f3869b;
+
+$accent-primary: $cyan-light;
+$accent-secondary: $green-normal;
+
+// TODO: is there a better way to do this? this is for example used in gnome-calculator for the result top-border
+// @define-color borders #{"" +$surface-strong};

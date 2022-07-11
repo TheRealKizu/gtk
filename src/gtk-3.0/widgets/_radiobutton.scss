@@ -1,0 +1,8 @@
+radiobutton {
+	label {
+		padding-left: 5px;
+	}
+	&:disabled {
+		opacity: 0.38;
+	}
+}
